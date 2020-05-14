@@ -1,0 +1,15 @@
+/* Set clearly edges of body */
+body {
+  margin: 0px !important;
+
+  background-color: #e2e2e2;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.footer {
+  top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}

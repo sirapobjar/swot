@@ -1,0 +1,340 @@
+/* css file for homeInfo.js */
+
+.homeInfo-body {
+  background-color: #f6f6f6;
+  font-family: "light";
+  cursor: default;
+}
+.all {
+  display: flex;
+  cursor: default;
+}
+/* about info and left column style */
+.left-column {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex: 70%;
+  margin-top: 4.5%;
+  margin-bottom: 4.5%;
+  margin-left: 8%;
+  margin-right: 2%;
+}
+
+.about > h1 {
+  font-family: "medium";
+  color: #f16f20;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.164);
+  margin-bottom: 3%;
+}
+.about {
+  margin-top: 5%;
+}
+.about-info {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(94, 92, 92, 0.336);
+  font-family: "exlight";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  color: #485e88;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+/* button style */
+.home-button {
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+  font-family: "regular";
+  font-size: 1.5em;
+  border: none;
+}
+.button-swot {
+  background-color: #363c54;
+  box-shadow: 0px 5px 5px rgba(94, 92, 92, 0.726);
+  color: #e8b278;
+  padding: 4%;
+  width: 33%;
+  border: none;
+  border-radius: 10px;
+}
+.button-olc {
+  background-color: #475e86;
+  box-shadow: 0px 5px 5px rgba(94, 92, 92, 0.726);
+  color: #e8b278;
+  padding: 4%;
+  width: 33%;
+  margin-left: 10%;
+  border: none;
+  border-radius: 10px;
+}
+.button-both {
+  background-color: #e8b278;
+  box-shadow: 0px 5px 5px rgba(94, 92, 92, 0.726);
+  color: #363c54;
+  padding: 4%;
+  width: 45%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.button-swot:hover,
+.button-olc:hover,
+.button-both:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+/*swotpic&info*/
+.swot-info {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(94, 92, 92, 0.336);
+  margin-top: 5%;
+
+  padding: 8%;
+  font-family: "exlight";
+  font-size: 1.5rem;
+  color: #485e88;
+}
+.swot-pic {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+/*olcpic&info*/
+.olc-info {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(94, 92, 92, 0.336);
+  margin-top: 5%;
+
+  padding: 8%;
+  font-family: "exlight";
+  font-size: 1.5rem;
+  color: #485e88;
+}
+.swotolc-info {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(94, 92, 92, 0.336);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 8%;
+  font-family: "exlight";
+  font-size: 1.5rem;
+  color: #485e88;
+}
+.olc-pic {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+/* end of about info and left column style */
+
+/* news and content in right column style*/
+.right-column {
+  width: auto;
+  margin-right: 8%;
+  display: flex;
+  flex-direction: column;
+  flex: 30%;
+  padding: 5% 1%;
+}
+.news {
+  margin-top: 5%;
+  box-shadow: 0px 4px 10px rgba(94, 92, 92, 0.336);
+  background-color: white;
+  font-family: "light";
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.news > p {
+  font-family: "bold";
+  max-width: 100%;
+  text-align: justify;
+}
+.news > h1 {
+  font-family: "medium";
+  color: #f16f20;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.164);
+  margin-bottom: 5%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+.card1 {
+}
+.card1-pic {
+  width: 100%;
+  margin-bottom: 5vh;
+}
+.card1-pic > img {
+  max-width: 100%;
+}
+.card1-pic > h2 {
+  background-color: #363c54;
+  color: #f16f20;
+  font-size: 1.5em;
+  margin-top: 8px;
+  padding: 3%;
+  font-family: "light";
+}
+
+.card2-pic {
+  width: 100%;
+}
+.card2-pic > a > img {
+  background-color: #9d9ea5;
+  max-width: 100%;
+  padding: 10%;
+}
+.card2-pic > h2 {
+  background-color: #363c54;
+  color: #f16f20;
+  font-size: 1.5em;
+  margin-top: 8px;
+  padding: 3%;
+  font-family: "light";
+}
+
+.facebook {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5vh;
+  width: auto;
+  padding: 5%;
+  box-shadow: 0px 4px 10px rgba(94, 92, 92, 0.336);
+  background-color: white;
+  text-align: center;
+}
+.facebook > h1 {
+  font-family: "medium";
+  color: #f16f20;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.164);
+  margin-bottom: 5%;
+  text-align: left;
+}
+.fb-page.page1 {
+  display: block;
+}
+.fb-page.page2 {
+  display: none;
+}
+
+/* end of news and content in right column style*/
+
+/* responsive foe ipad below*/
+
+@media only screen and (max-width: 1024px) {
+  .all {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-column {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5%;
+  }
+  .about-info {
+    width: 100%;
+    justify-content: center;
+  }
+  .right-column {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5%;
+  }
+  .news {
+    margin-top: 0%;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .button-swot {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .button-olc {
+    width: 100%;
+
+    align-items: center;
+    margin: 0 auto;
+  }
+  .button-both {
+    width: 100%;
+  }
+  .card1-pic > h2,
+  .card2-pic > h2 {
+    font-size: 1.5rem;
+  }
+  .fb-page.page1 {
+    display: block;
+  }
+  .fb-page.page2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about > h1 {
+    font-size: 1.5rem;
+  }
+  .about-info {
+    font-size: 1rem;
+  }
+  .fb-page.page1 {
+    display: none;
+  }
+  .fb-page.page2 {
+    display: block;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .button-swot {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .button-olc {
+    width: 100%;
+
+    align-items: center;
+    margin: 0 auto;
+  }
+  .button-both {
+    width: 100%;
+  }
+  .right-column {
+    font-size: 0.8rem;
+  }
+  .news > h1 {
+    font-size: 1.5rem;
+  }
+
+  .facebook > h1 {
+    font-size: 1.5rem;
+  }
+}
